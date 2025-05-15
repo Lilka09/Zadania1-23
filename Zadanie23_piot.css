@@ -1,0 +1,40 @@
+p#pogrubienie_piotrowska {
+    font-size: 35px;
+    color: #7D32C8;
+    font-weight: bold;
+}
+
+p#pochylona_piotrowska {
+    font-size: 40pt;
+    color: #E8BC6D;
+    font-style: italic;
+}
+
+p#index_gorny_piotrowska {
+    font-size: 1.5cm;
+    color: #988A1D;
+    vertical-align: super;
+}
+
+p#index_dolny_piotrowska {
+    font-size: 2.5 cm;
+    color: rgba(20.4%, 93.3%, 89.8%, 1);
+    vertical-align: sub;
+}
+
+p#mono_piotrowska {
+    font-size: 45px;
+    color: #18DA6D;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p#powiekszenie_piotrowska {
+    font-size: 30px;
+    color: #523A9F;
+}
+
+p#pomniejszenie_piotrowska {
+    font-size: 15px;
+    color: rgba(75%, 68%, 12%, 1);
+   
+}

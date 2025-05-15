@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela HTML i CSS</title>
+    <style>
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 15px;
+        }
+        th {
+            font-size: 20px;
+        }
+        .bold {
+            font-weight: bold;
+        }
+    </style>
+  </head>
+  <body>
+   <u>CSS</u> <b>- Kaskadowe Arkusze Stylów</b> (z ang. Cascading Style Sheets) jest to specjalny język stworzony w celu elastycznego zarządzania sposobem formatowania (wyglądem) elementów znajdujących się na stronach WWW.
+ <br>
+ <br>
+   <table>
+    <tr>
+        <th colspan="2">Cechy modyfikowania formatowania w:</th>
+    </tr>
+    <tr>
+        <th>w HTML</th>
+        <th>w CSS</th>
+    </tr>
+    <tr>
+        <td>
+            modyfikacja wyglądu elementów strony jest bardzo <span class="bold">żmudna</span> (atrybuty i znaczniki które za to odpowiadają, są porozrzucane w różnych miejscach kodu, mieszając się ze strukturą dokumentu).
+        </td>
+        <td>
+            rozdzielenie <span class="bold">struktury i prezentacji</span> dokumentów czyli: wszystkie polecenia dotyczące formatowania można umieścić w jednym miejscu (tzw. arkuszu) i powiązać je z konkretnymi elementami, wstawionymi za pomocą czystego (X)HTML. Taki sposób sprawia, że modyfikacja wyglądu stron może przebiegać dużo sprawniej.
+        </td>
+    </tr>
+</table>
+  </body>
+</html>

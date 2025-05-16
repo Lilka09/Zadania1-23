@@ -13,7 +13,7 @@ p#pochylona_piotrowska {
 p#index_gorny_piotrowska {
     font-size: 1.5cm;
     color: #988A1D;
-    vertical-align: super;
+    vertical-align: sup;
 }
 
 p#index_dolny_piotrowska {
